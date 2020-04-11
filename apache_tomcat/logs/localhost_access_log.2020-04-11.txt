@@ -1,0 +1,17 @@
+192.168.1.5 - catalina [11/Apr/2020:00:00:03 -0400] "POST /examples/jsp/security/protected/j_security_check HTTP/1.1" 303 -
+192.168.1.5 - catalina [11/Apr/2020:00:00:03 -0400] "GET /examples/jsp/security/protected/index.jsp HTTP/1.1" 200 1075
+192.168.1.5 - catalina [11/Apr/2020:00:00:08 -0400] "GET /examples/jsp/security/protected/index.jsp?logoff=true HTTP/1.1" 302 -
+192.168.1.5 - - [11/Apr/2020:00:00:08 -0400] "GET /examples/jsp/security/protected/index.jsp HTTP/1.1" 200 583
+192.168.1.5 - - [11/Apr/2020:00:00:22 -0400] "GET /IDwebapp HTTP/1.1" 302 -
+192.168.1.5 - - [11/Apr/2020:00:00:22 -0400] "GET /IDwebapp/ HTTP/1.1" 200 268
+127.0.0.1 - - [11/Apr/2020:03:09:29 -0400] "GET /IDwebapp HTTP/1.1" 404 717
+127.0.0.1 - - [11/Apr/2020:03:10:00 -0400] "GET / HTTP/1.1" 200 11215
+127.0.0.1 - - [11/Apr/2020:03:10:06 -0400] "GET /IDwebapp HTTP/1.1" 404 717
+192.168.1.5 - - [11/Apr/2020:03:58:07 -0400] "GET / HTTP/1.1" 200 11215
+192.168.1.5 - - [11/Apr/2020:03:58:42 -0400] "GET / HTTP/1.1" 200 11215
+192.168.1.5 - - [11/Apr/2020:03:58:42 -0400] "GET /favicon.ico HTTP/1.1" 200 21630
+192.168.1.5 - - [11/Apr/2020:03:58:47 -0400] "GET /IDwebapp HTTP/1.1" 404 645
+192.168.1.5 - - [11/Apr/2020:03:58:50 -0400] "GET /IDwebapp HTTP/1.1" 404 645
+192.168.1.5 - - [11/Apr/2020:03:58:50 -0400] "GET /favicon.ico HTTP/1.1" 200 21630
+192.168.1.5 - - [11/Apr/2020:03:58:51 -0400] "GET /IDwebapp HTTP/1.1" 404 645
+192.168.1.5 - - [11/Apr/2020:03:58:51 -0400] "GET /favicon.ico HTTP/1.1" 200 21630

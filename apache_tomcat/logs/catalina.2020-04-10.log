@@ -1,0 +1,298 @@
+10-Apr-2020 23:31:31.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.54
+10-Apr-2020 23:31:31.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 14:06:10 UTC
+10-Apr-2020 23:31:31.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.54.0
+10-Apr-2020 23:31:31.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Apr-2020 23:31:31.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.0-8-amd64
+10-Apr-2020 23:31:31.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2020 23:31:31.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/calolo/Documents/jdk1.8.0_131/jre
+10-Apr-2020 23:31:31.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+10-Apr-2020 23:31:31.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 23:31:31.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:31:31.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:31:31.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/calolo/Documents/apache-tomcat-8.5.54/conf/logging.properties
+10-Apr-2020 23:31:31.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 23:31:31.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 23:31:31.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 23:31:31.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 23:31:31.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 23:31:31.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:31:31.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:31:31.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/calolo/Documents/apache-tomcat-8.5.54/temp
+10-Apr-2020 23:31:31.245 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+10-Apr-2020 23:31:32.284 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:31:32.432 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2020 23:31:32.567 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4185 ms
+10-Apr-2020 23:31:32.810 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 23:31:32.820 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.54
+10-Apr-2020 23:31:32.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager]
+10-Apr-2020 23:31:35.433 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [116] milliseconds.
+10-Apr-2020 23:31:35.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager] has finished in [2,780] ms
+10-Apr-2020 23:31:35.678 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs]
+10-Apr-2020 23:31:35.828 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs] has finished in [150] ms
+10-Apr-2020 23:31:35.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT]
+10-Apr-2020 23:31:35.976 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT] has finished in [144] ms
+10-Apr-2020 23:31:35.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples]
+10-Apr-2020 23:31:37.793 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples] has finished in [1,810] ms
+10-Apr-2020 23:31:37.795 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager]
+10-Apr-2020 23:31:37.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager] has finished in [153] ms
+10-Apr-2020 23:31:37.987 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:31:38.062 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5494 ms
+10-Apr-2020 23:32:13.106 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Apr-2020 23:32:13.129 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:32:13.149 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Apr-2020 23:32:13.320 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:32:13.323 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:32:32.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.54
+10-Apr-2020 23:32:32.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 14:06:10 UTC
+10-Apr-2020 23:32:32.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.54.0
+10-Apr-2020 23:32:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Apr-2020 23:32:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.0-8-amd64
+10-Apr-2020 23:32:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2020 23:32:32.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/calolo/Documents/jdk1.8.0_131/jre
+10-Apr-2020 23:32:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+10-Apr-2020 23:32:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 23:32:32.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:32:32.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:32:32.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/calolo/Documents/apache-tomcat-8.5.54/conf/logging.properties
+10-Apr-2020 23:32:32.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 23:32:32.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 23:32:32.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 23:32:32.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 23:32:32.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 23:32:32.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:32:32.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:32:32.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/calolo/Documents/apache-tomcat-8.5.54/temp
+10-Apr-2020 23:32:32.057 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+10-Apr-2020 23:32:33.052 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:32:33.133 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2020 23:32:33.222 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3935 ms
+10-Apr-2020 23:32:33.384 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 23:32:33.385 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.54
+10-Apr-2020 23:32:33.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager]
+10-Apr-2020 23:32:35.203 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager] has finished in [1,770] ms
+10-Apr-2020 23:32:35.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs]
+10-Apr-2020 23:32:35.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs] has finished in [108] ms
+10-Apr-2020 23:32:35.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT]
+10-Apr-2020 23:32:35.421 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT] has finished in [106] ms
+10-Apr-2020 23:32:35.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples]
+10-Apr-2020 23:32:36.866 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples] has finished in [1,438] ms
+10-Apr-2020 23:32:36.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager]
+10-Apr-2020 23:32:37.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager] has finished in [260] ms
+10-Apr-2020 23:32:37.142 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:32:37.208 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3984 ms
+10-Apr-2020 23:34:47.300 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/IDwebapp]
+10-Apr-2020 23:34:47.387 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/IDwebapp] has finished in [87] ms
+10-Apr-2020 23:37:08.768 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Apr-2020 23:37:08.768 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:37:08.792 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Apr-2020 23:37:09.056 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:37:09.063 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:44:05.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.54
+10-Apr-2020 23:44:05.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 14:06:10 UTC
+10-Apr-2020 23:44:05.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.54.0
+10-Apr-2020 23:44:05.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Apr-2020 23:44:05.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.0-8-amd64
+10-Apr-2020 23:44:05.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2020 23:44:05.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/calolo/Documents/jdk1.8.0_131/jre
+10-Apr-2020 23:44:05.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+10-Apr-2020 23:44:05.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 23:44:05.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:44:05.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:44:05.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/calolo/Documents/apache-tomcat-8.5.54/conf/logging.properties
+10-Apr-2020 23:44:05.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 23:44:05.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config==/home/calolo/Documents/apache-tomcat-8.5.54/conf/jaas.config
+10-Apr-2020 23:44:05.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 23:44:05.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 23:44:05.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 23:44:05.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 23:44:05.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:44:05.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:44:05.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/calolo/Documents/apache-tomcat-8.5.54/temp
+10-Apr-2020 23:44:05.249 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+10-Apr-2020 23:44:06.255 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:44:06.399 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2020 23:44:06.540 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4208 ms
+10-Apr-2020 23:44:06.719 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 23:44:06.720 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.54
+10-Apr-2020 23:44:06.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/IDwebapp]
+10-Apr-2020 23:44:08.828 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/IDwebapp] has finished in [2,048] ms
+10-Apr-2020 23:44:08.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager]
+10-Apr-2020 23:44:09.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager] has finished in [192] ms
+10-Apr-2020 23:44:09.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs]
+10-Apr-2020 23:44:09.140 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs] has finished in [116] ms
+10-Apr-2020 23:44:09.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT]
+10-Apr-2020 23:44:09.229 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT] has finished in [85] ms
+10-Apr-2020 23:44:09.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples]
+10-Apr-2020 23:44:10.698 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples] has finished in [1,467] ms
+10-Apr-2020 23:44:10.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager]
+10-Apr-2020 23:44:10.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager] has finished in [107] ms
+10-Apr-2020 23:44:10.820 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:44:10.878 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4336 ms
+10-Apr-2020 23:44:17.465 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Apr-2020 23:44:17.466 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:44:17.493 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Apr-2020 23:44:17.654 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:44:17.660 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:47:45.994 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 150 column 13: The string "--" is not permitted within comments.
+	org.xml.sax.SAXParseException; systemId: file:/home/calolo/Documents/apache-tomcat-8.5.54/conf/server.xml; lineNumber: 150; columnNumber: 13; The string "--" is not permitted within comments.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:819)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1034)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2982)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:611)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Apr-2020 23:47:46.017 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: The string "--" is not permitted within comments.
+10-Apr-2020 23:47:46.018 SEVERE [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+10-Apr-2020 23:51:08.819 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 150 column 13: The string "--" is not permitted within comments.
+	org.xml.sax.SAXParseException; systemId: file:/home/calolo/Documents/apache-tomcat-8.5.54/conf/server.xml; lineNumber: 150; columnNumber: 13; The string "--" is not permitted within comments.
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+		at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+		at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:819)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1034)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2982)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+		at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+		at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+		at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+		at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1513)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:611)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Apr-2020 23:51:08.843 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: The string "--" is not permitted within comments.
+10-Apr-2020 23:51:08.844 SEVERE [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+10-Apr-2020 23:53:37.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.54
+10-Apr-2020 23:53:37.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 14:06:10 UTC
+10-Apr-2020 23:53:37.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.54.0
+10-Apr-2020 23:53:37.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Apr-2020 23:53:37.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.0-8-amd64
+10-Apr-2020 23:53:37.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2020 23:53:37.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/calolo/Documents/jdk1.8.0_131/jre
+10-Apr-2020 23:53:37.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+10-Apr-2020 23:53:37.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 23:53:37.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:53:37.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:53:37.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/calolo/Documents/apache-tomcat-8.5.54/conf/logging.properties
+10-Apr-2020 23:53:37.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 23:53:37.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config==/home/calolo/Documents/apache-tomcat-8.5.54/conf/jaas.config
+10-Apr-2020 23:53:37.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 23:53:37.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 23:53:37.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 23:53:37.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 23:53:37.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:53:37.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:53:37.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/calolo/Documents/apache-tomcat-8.5.54/temp
+10-Apr-2020 23:53:37.661 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+10-Apr-2020 23:53:38.484 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:53:38.559 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2020 23:53:38.652 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3515 ms
+10-Apr-2020 23:53:38.805 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 23:53:38.806 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.54
+10-Apr-2020 23:53:38.815 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+	org.apache.catalina.LifecycleException: Failed to start component [Realm[JAASRealm]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:917)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:258)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:688)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.lang.UnsupportedClassVersionError: PlainUserPrincipal has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+		at java.lang.ClassLoader.defineClass1(Native Method)
+		at java.lang.ClassLoader.defineClass(ClassLoader.java:763)
+		at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+		at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
+		at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+		at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+		at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+		at java.security.AccessController.doPrivileged(Native Method)
+		at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at org.apache.catalina.realm.JAASRealm.parseClassNames(JAASRealm.java:293)
+		at org.apache.catalina.realm.JAASRealm.startInternal(JAASRealm.java:639)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 14 more
+10-Apr-2020 23:53:38.828 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:53:38.833 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Apr-2020 23:53:38.849 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:58:02.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.54
+10-Apr-2020 23:58:02.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 14:06:10 UTC
+10-Apr-2020 23:58:02.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.54.0
+10-Apr-2020 23:58:02.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Apr-2020 23:58:02.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.0-8-amd64
+10-Apr-2020 23:58:02.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Apr-2020 23:58:02.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/calolo/Documents/jdk1.8.0_131/jre
+10-Apr-2020 23:58:02.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+10-Apr-2020 23:58:02.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Apr-2020 23:58:02.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:58:02.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:58:02.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/calolo/Documents/apache-tomcat-8.5.54/conf/logging.properties
+10-Apr-2020 23:58:02.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 23:58:02.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config==/home/calolo/Documents/apache-tomcat-8.5.54/conf/jaas.config
+10-Apr-2020 23:58:02.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 23:58:02.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 23:58:02.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 23:58:02.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Apr-2020 23:58:02.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:58:02.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/calolo/Documents/apache-tomcat-8.5.54
+10-Apr-2020 23:58:02.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/calolo/Documents/apache-tomcat-8.5.54/temp
+10-Apr-2020 23:58:02.582 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+10-Apr-2020 23:58:03.617 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:58:03.696 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Apr-2020 23:58:03.784 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3415 ms
+10-Apr-2020 23:58:03.950 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Apr-2020 23:58:03.951 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.54
+10-Apr-2020 23:58:04.005 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/IDwebapp]
+10-Apr-2020 23:58:05.950 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/IDwebapp] has finished in [1,944] ms
+10-Apr-2020 23:58:05.951 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager]
+10-Apr-2020 23:58:06.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/manager] has finished in [220] ms
+10-Apr-2020 23:58:06.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs]
+10-Apr-2020 23:58:06.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/docs] has finished in [103] ms
+10-Apr-2020 23:58:06.280 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT]
+10-Apr-2020 23:58:06.362 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/ROOT] has finished in [82] ms
+10-Apr-2020 23:58:06.369 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples]
+10-Apr-2020 23:58:07.816 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/examples] has finished in [1,447] ms
+10-Apr-2020 23:58:07.817 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager]
+10-Apr-2020 23:58:07.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/calolo/Documents/apache-tomcat-8.5.54/webapps/host-manager] has finished in [109] ms
+10-Apr-2020 23:58:07.939 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Apr-2020 23:58:08.000 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4214 ms

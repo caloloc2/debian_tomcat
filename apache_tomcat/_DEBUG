@@ -1,0 +1,24 @@
+########################
+Login: cat
+Password: cat
+Pepper: $PEPPER
+Salt: $SALT
+Password ready to be hashed: $PASSWORD_TO_HASH
+HASHBYSHASHM: $HASHBYSHASUM
+HASH_READY: $HASH_READY
+READY TO WRITE IN OUTPUT FILE
+login:hashedpassword:salt
+cat::generateSalt
+########################
+########################
+Login: $1
+Password:
+Pepper: $PEPPER
+Salt: $SALT
+Password ready to be hashed: $PASSWORD_TO_HASH
+HASHBYSHASHM: $HASHBYSHASUM
+HASH_READY: $HASH_READY
+READY TO WRITE IN OUTPUT FILE
+login:hashedpassword:salt
+$1::generateSalt
+########################

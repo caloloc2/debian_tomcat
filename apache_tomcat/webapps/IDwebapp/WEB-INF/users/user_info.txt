@@ -1,0 +1,5 @@
+Tyrion Lannister:Gerente:tyrion:AC,GV,GN,GC
+Arya Stark:Jeve de Ventas:arya:GV
+John Snow:Jefe de Personal:john:GN
+Gersei Lannister:Jefe de Compras:cersei:GC
+Theon Greyjoy:Auditor:theon:AU
